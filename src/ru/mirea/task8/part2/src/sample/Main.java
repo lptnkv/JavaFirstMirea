@@ -19,14 +19,14 @@ public class Main extends Application {
         root.getChildren().add(view);
 
         primaryStage.setTitle("Image");
-        primaryStage.setScene(new Scene(root, 800, 400));
+        primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
         path = args[0];
-        path = path.substring(1);
+        //path = path.substring(1);
         System.out.println(path);
         launch(args);
     }
