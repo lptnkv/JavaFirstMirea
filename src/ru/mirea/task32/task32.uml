@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task32</OriginalElement>
+  <nodes>
+    <node x="0.0" y="225.0">ru.mirea.task32.EWalletPayment</node>
+    <node x="-16.0" y="-15.0">ru.mirea.task32.EWalletPayStrategy</node>
+    <node x="-28.0" y="465.0">ru.mirea.task32.TestPayment</node>
+    <node x="232.0" y="105.0">ru.mirea.task32.DebitPayStrategy</node>
+    <node x="28.0" y="345.0">ru.mirea.task32.Payment</node>
+    <node x="12.0" y="105.0">ru.mirea.task32.PayStrategy</node>
+    <node x="208.0" y="345.0">ru.mirea.task32.DebitPayment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task32.DebitPayStrategy" target="ru.mirea.task32.PayStrategy">
+      <point x="-88.0" y="-0.0" />
+      <point x="68.0" y="-0.0" />
+    </edge>
+    <edge source="ru.mirea.task32.EWalletPayment" target="ru.mirea.task32.Payment">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+    <edge source="ru.mirea.task32.DebitPayment" target="ru.mirea.task32.Payment">
+      <point x="-72.0" y="-0.0" />
+      <point x="52.0" y="-0.0" />
+    </edge>
+    <edge source="ru.mirea.task32.EWalletPayStrategy" target="ru.mirea.task32.PayStrategy">
+      <point x="0.0" y="15.0" />
+      <point x="0.0" y="-15.0" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.0" x="192.0" y="240.0" />
+  <SelectedNodes>
+    <node>ru.mirea.task32.PayStrategy</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
